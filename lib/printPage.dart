@@ -63,7 +63,6 @@ class _PrintPageState extends State<PrintPage> {
                   subtitle: Text(devices[index].address.toString()),
                   onTap: () {
                     _startPrint(devices[index]);
-                    print("object${_startPrint(devices[index])}");
                   },
                 );
               },
